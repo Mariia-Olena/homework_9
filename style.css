@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: rgb(189, 189, 189);
+    padding: 25px;
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    background-color: rgb(129, 129, 129);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.item-nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 70px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.item-nav:hover .link-nav{
+    background-color: gainsboro;
+}
+
+.item-nav:last-child {
+    margin-right: 0;
+}
+
+.link-nav {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.link-product {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(184, 184, 184);
+    padding: 15px;
+    display: block;
+}
+
+.sub-link-nav {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(202, 200, 200);
+    padding: 15px;
+    display: block;
+}
+
+.list-product {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 100%;
+    text-align: left;
+}
+
+.item-nav:hover .list-product {
+    display: block;
+}
+
+.sub-list-nav {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+    width: 100%;
+    text-align: left;
+}
+
+.item-product:hover .sub-list-nav {
+    display: block;
+}
+
+.item-product {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.item-product:hover .link-product {
+    background-color: gainsboro;
+}
+
+.sub-item-nav:hover .sub-link-nav {
+    background-color: gainsboro;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    color: black;
+}
+
+.plus {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
